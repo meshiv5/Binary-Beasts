@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+#parent{
+    height:500px;
+    width: 30%;
+    border: 1px solid rgb(25, 190, 185);
+    margin: auto;
+    background-color:rgb(25, 190, 185);
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h1{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+#parent>input{
+    width: 80%;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.f{
+   padding-left: 10px;
+    font-size: 15px;
+    border: 0;
+}
+.s{
+    font-size: 15px;
+    background-color:rgb(13, 153, 148);
 
+ text-align: center;
+ padding-left: 10px;
+ border: 0;
+ 
+}
+.s::placeholder{
+    color: white;
+}
+    </style>
+</head>
+<body>
+   <div id="parent">
+    <h1>- Visitor -</h1>
+    <input  class="f" type="text" placeholder="Full name">
+    <input class="f" type="text" placeholder="Email">
+    <input class="f" type="text" placeholder="Organisation">
+    <input class="s" type="text" placeholder="Sign Up">
+    <input  class="s" type="text" placeholder="Return">
+   </div> 
+</body>
+</html>
