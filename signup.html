@@ -7,52 +7,62 @@
     <title>Document</title>
     <style>
 #parent{
-    height:500px;
+    height:700px;
     width: 30%;
-    border: 1px solid rgb(25, 190, 185);
+    border: 1px solid #48C9B0;
     margin: auto;
-    background-color:rgb(25, 190, 185);
+    background-color:#48C9B0;
     margin-top: 100px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-h1{
+p{
     color: white;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
-#parent>input{
-    width: 80%;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 40px;
+input{
+    width: 75%;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 60px;
 }
 .f{
    padding-left: 10px;
-    font-size: 15px;
+    font-size: 20px;
     border: 0;
 }
-.s{
-    font-size: 15px;
-    background-color:rgb(13, 153, 148);
-
- text-align: center;
- padding-left: 10px;
- border: 0;
- 
-}
-.s{
+input.s{
+    font-size: 20px;
+    background-color:#17A589;
+    text-align: center;
+    padding-left: 10px;
+    border: 0;
+    letter-spacing: 2px;
+    margin-bottom: -15px;
     color: white;
+    width: 77%;
 }
     </style>
 </head>
 <body>
    <div id="parent">
-    <h1>- Visitor -</h1>
+    <p>- Visitor -</p>
     <input  class="f" type="text" placeholder="Full name">
     <input class="f" type="text" placeholder="Email">
     <input class="f" type="text" placeholder="Organisation">
-    <input class="s" type="submit" value="Sign Up">
-    <input  class="s" type="submit" value="Return">
+    <input class="s" type="submit" value="SIGN UP">
+    <input  class="s" type="submit" value="RETURN">
    </div> 
 </body>
 </html>
+
+<script type="text/javascript">
+    let q = document.querySelectorAll('.s');
+    q[1].addEventListener('click',run);
+    function run(){
+        window.location.replace('navbar.html');
+    }
+
+</script>
