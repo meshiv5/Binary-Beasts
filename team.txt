@@ -3,7 +3,7 @@ Team Name :- Binary Beasts
 -----------------Team Members---------------------
 
 1.Shivendra Upadhyay (Lead)
-2.Prabhat Podar
+2.Prabhat Poddar
 3.Neha Kumari
 4.Adnan Hussain
 5.Devarshi Ojha
